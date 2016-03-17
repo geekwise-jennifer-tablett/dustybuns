@@ -1,0 +1,60 @@
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size:62.5%;
+}
+body{}
+#hamburger_img{
+    height:645px;
+    width:auto;
+    background-image:url(http://i.imgur.com/9ICHNEl.jpg);
+     background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+/*dropdown_bars_homepage*/
+.fa{
+    margin:4rem;
+    height:2rem;
+    width:3rem;
+    line-height:2rem;
+    color:#ffffff;
+    font-size:2.5rem;
+    text-align:center;
+    float:right;
+}
+
+.div_dropdown{
+    position:relative;
+    display:inline-block;
+    float:right;
+    width:450px;
+}
+.onclick-menu-content{
+    margin:0 auto;
+    text-align:center;
+    height:3rem;
+    width:100%;
+    line-height:4rem;
+    font-size:1.5rem;
+    position:absolute;
+    opacity:0;
+    transition:0.5s;
+    background-color:#bccf3d;
+    color:#ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+.div_dropdown:focus .onclick-menu-content{
+    width:40rem;
+    display:block;
+    pointer-events:auto;
+    opacity:1;
+    list-style:none;
+}
+hr{
+    height:1px;
+    width:90%;
+    color:#000000;
+}
