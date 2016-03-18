@@ -25,7 +25,6 @@ body{}
     text-align:center;
     float:right;
 }
-
 .div_dropdown{
     position:relative;
     display:inline-block;
@@ -58,3 +57,7 @@ hr{
     width:90%;
     color:#000000;
 }
+/*secondary_dropdown_menu*/
+.secondary_dropdown_ul{}
+.secondary_dropdown_li{}
+
