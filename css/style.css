@@ -232,3 +232,8 @@ hr{
 .color_orange{
     background-color:#ffc509;
 }
+/*bold_h1_flexbox*/
+#bold_title_inflex{
+    color:#ffffff;
+    font-size:30px;
+}
