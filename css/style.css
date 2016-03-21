@@ -177,15 +177,55 @@ hr{
     background-repeat: no-repeat;
 }
 .flexbox{
-    height:100rem;
-    width:75%;
     display:-webkit-flex;
     display: flex;
-    -webkit-justify-content:center;
     -webkit-flex-wrap:none;
     flex-wrap:nowrap;
+    -webkit-flex-direction: row;
+    flex-direction: row;
 }
 /*flex_item_long*/
-
-
-
+.flexitem_long{
+   height:64rem;
+   width:30rem;
+   text-align: center;
+   
+}
+.left{
+    -webkit-justify-content:left;
+}
+/*background_flexbox*/
+.color_green{
+    background-color:#bccf3d;
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+hr{
+    color:#ffffff;
+    height:1px;
+    width:10px;
+}
+.phone_number{
+    color:#87a049;
+}
+.phone_number:hover{
+    color:#000000;
+}
+/*color_for_p*/
+.flex_white{
+    
+    color:#ffffff;
+    font-size:12px;
+}
+/*box2_right_top-flexitem_short*/
+.flex_item_short{
+   height:32rem;
+   width:36rem;
+   text-align: center;
+}
+.right{-webkit-justify-content:right;}
+.color_orange{
+    background-color:#ffc509;
+}
