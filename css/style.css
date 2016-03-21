@@ -237,3 +237,48 @@ hr{
     color:#ffffff;
     font-size:30px;
 }
+
+/*media_section*/
+.sec_media{
+   height:20rem;
+    width:100%;
+}
+#contact{
+    height:20rem;
+    width:calc(100%/3);
+    float:left;
+}
+#follow{
+    height:20rem;
+    width:calc(100%/3);
+ float:left;
+}
+#company{
+    height:20rem;
+    width:calc(100%/3);
+    float:right
+}
+.orange_font{
+    text-transform: capitalize;
+    font-size:20px;
+    font-family:'roboto_thin';
+    color:#ffc637;
+}
+.media_a{
+    color:#9baba7;
+    font-size:20px;
+}
+.media_a:hover{
+    color:#000000;
+}
+
+/*footer_homepage*/
+#footer_home{
+    height:30rem;
+    background-image: url(http://i.imgur.com/a998KsK.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+
