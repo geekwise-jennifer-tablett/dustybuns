@@ -1,0 +1,17 @@
+/*simple_font_for_nav*/
+@font-face{
+    font-family:'roboto';
+    src:url('http://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2');
+}
+
+/*signiture_font_for_dusty*/
+@font-face{
+    font-family:'pacifico';
+    src:url('http://fonts.gstatic.com/s/pacifico/v7/Q_Z9mv4hySLTMoMjnk_rCfesZW2xOQ-xsNqO47m55DA.woff2');
+}
+
+/*super_thin_font*/
+@font-face{
+    font-family:'roboto_thin';
+    src:url('http://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2');
+}

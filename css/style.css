@@ -4,7 +4,6 @@ html,body{
     box-sizing:border-box;
     font-size:62.5%;
 }
-body{}
 #hamburger_img{
     height:645px;
     width:auto;
@@ -36,11 +35,13 @@ body{}
     font-size:2rem;
     color:#ffffff;
     text-shadow: 2px 2px 4px #000000;
+    font-family:'roboto';
 }
 li:hover{
     background-color:#bccf3d;
     border-radius:1rem;
 }
+
 /*secondary_nav_dropdown_menu*/
 .secondary_nav_dropdown{
     margin:0 auto;
@@ -63,6 +64,7 @@ li:hover{
     opacity:1;
     list-style:none;
 }
+
 /*attempt_to_align_under_original_list*/
 .locations{
     position:relative;
@@ -101,6 +103,7 @@ li:hover{
     background-color:#bccf3d;
     color:#ffffff;
     text-shadow: 2px 2px 4px #000000;
+    font-family:'roboto';
 }
 .div_dropdown:focus .onclick-menu-content{
     width:40rem;
@@ -114,6 +117,7 @@ hr{
     width:90%;
     color:#000000;
 }
+
 /*secondary_dropdown_menu*/
 .secondary_dropdown_ul{}
 .secondary_dropdown_li{}
@@ -126,10 +130,62 @@ hr{
 .dusty_logofont{
     text-align: center;
     font-size: 60px;
-    color:#ffffff;  
+    color:#ffffff;
+    font-family:'pacifico'
 }
 .simple_font{
     text-align: center;
     font-size: 40px;
     color:#ffffff;
+    font-family:'roboto';
 }
+#welcome_buns{
+    
+}
+.welcome_buns{
+    color:#ffc509;
+}
+#fork_img{
+    display:block;
+    margin:0 auto;
+    position:relative;
+    top:-5rem;
+}
+.thin_font{
+    margin:0 auto;
+    height:10rem;
+    width:100rem;
+    font-family:'roboto_thin';
+    text-align: justify;
+    font-size:20px;
+    line-height:3.5rem;
+}
+/*centering_theword_it*/
+#centered_word{
+    font-family:'roboto_thin';
+    text-align: center;
+    font-size:20px;
+    line-height:3.5rem;
+}
+
+/*giant_flexbox_tryout*/
+.flex_sec{
+    height:100rem;
+    width:100%;
+    background-image:url(http://i.imgur.com/F6UAf5U.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.flexbox{
+    height:100rem;
+    width:75%;
+    display:-webkit-flex;
+    display: flex;
+    -webkit-justify-content:center;
+    -webkit-flex-wrap:none;
+    flex-wrap:nowrap;
+}
+/*flex_item_long*/
+
+
+
