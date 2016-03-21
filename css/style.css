@@ -14,6 +14,28 @@ body{}
     background-size:cover;
 }
 
+/*scrolling_nav_eventually*/
+.nav_home{
+    margin:0 auto;
+    display:block;
+    position:relative;
+    
+}
+.nav_home >ul{
+    display:inline-block;
+}
+.nav_home >ul >li{
+    display:inline;
+}
+/*secondary_nav_dropdown_menu*/
+.secondary_nav_dropdown{
+    display:block;
+}
+.secondary_nav_dropdown >li{
+    
+}
+
+
 /*dropdown_bars_homepage*/
 .fa{
     margin:4rem;
