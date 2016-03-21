@@ -194,6 +194,9 @@ hr{
 .left{
     -webkit-justify-content:left;
 }
+.flex_header{
+    font-family:font-family:'roboto_thin';
+}
 /*background_flexbox*/
 .color_green{
     background-color:#bccf3d;
@@ -215,7 +218,7 @@ hr{
 }
 /*color_for_p*/
 .flex_white{
-    
+    text-transform: uppercase;
     color:#ffffff;
     font-size:12px;
 }
