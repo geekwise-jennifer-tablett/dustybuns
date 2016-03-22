@@ -293,3 +293,59 @@ q{
     font-size:30px;
     color:#ffffff;
 }
+
+/*sfbistro*/
+/*fbistro*/
+/*fbus*/
+/*about*/
+.nomove_nav{
+    height:10rem;
+    width:100%;
+    position:fixed;
+    top:0;
+    background-color:#ffffff;
+}
+.black_font{
+    margin:2rem;
+    padding:1rem;
+    position: relative;
+    top:1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    color:#000000;
+}
+.no_nav{
+    display:block;
+    height: 4rem;
+    width:80%;
+    position:absolute;
+    top:2.5rem;
+    right:.5rem;
+}
+.no_ul{
+    display:inline-block;
+    height: 4rem;
+    width:100%;
+    line-height: 4rem;
+}
+.no_li{
+    margin:1rem;
+    padding:1rem;
+    display:inline;
+    height: 4rem;
+    width:calc(100%/6);
+    font-size:2rem;
+}
+.nomove_a{
+    color:#000000;
+}
+ .nomove_a:hover{
+    color:#bccf3d;
+     background-color:#ffffff;
+     transition-duration: 1s;
+}
+/*catering*/
+/*flunch*/
+/*sflunch*/
+/*contact*/
+/*careers*/
