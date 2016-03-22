@@ -451,3 +451,66 @@ div#slider figure {
 }
 
 /*careers*/
+#careers{
+    height:100rem;
+    width:auto;
+    background-image: url(http://i.imgur.com/L6NEx3Y.jpg);background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#greenfont{
+    height: 7rem;
+    width:30rem;
+    color:#bccf3d;
+    font-size: 7rem;
+    position:relative;
+    top:30rem;
+    margin:0 auto;
+}
+h4{
+    color:#ffffff;
+    font-size:20px;
+    text-align: center;
+    position:relative;
+    top:40rem;
+}
+#career_info{
+    height:50rem;
+    width:auto;
+}
+p{
+    padding:1rem;
+    height: 10rem;
+    width:80rem;
+    font-size: 20px;
+}
+ol{
+    height: 25rem;
+    width:80rem;
+    font-size: 20px;
+    list-style: none; 
+}
+#special_liststyle:hover{
+    background-color:transparent;
+}
+/* Insert_content_that_looks like_bullets */
+#special_liststyle:before {
+    content: "-"; 
+    padding-right: 8px;
+}
+#orangefont{
+    color:#ffc300;
+    width:20rem;
+}
+#side_div{
+    height:40rem;
+    width:20rem;
+    position:relative;
+    right:-90rem;
+    top:-40rem;
+}
+#green_hr{
+    height: 1px;
+    width:10px;
+    color:#bccf3d;
+}
