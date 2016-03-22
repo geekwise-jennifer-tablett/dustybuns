@@ -329,11 +329,10 @@ q{
     line-height: 4rem;
 }
 .no_li{
-    margin:1rem;
-    padding:1rem;
-    display:inline;
+    margin:0 4%;
+    padding:0;
+    display:inline-block;
     height: 4rem;
-    width:calc(100%/6);
     font-size:2rem;
 }
 .nomove_a{
@@ -353,6 +352,86 @@ input[type=checkbox]{
 }
 input[type=checkbox]:checked ~ .second_drop {
     display: block
+}
+/*background_img_section*/
+.backgroundimg_sec{
+    height:100rem;
+    width:auto;
+    background-image: url(http://i.imgur.com/EGiTFRs.jpg);background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.abouth1{
+    position: relative;
+   top:30rem;
+}
+story_sec{
+    margin:5rem;    
+    height:50rem;
+    width:80%;
+}
+#kiss_img{
+    margin:5rem;
+    display: block;
+    position: relative;
+    float:left;
+}
+#green_title{
+    height: auto;
+    width:20rem;
+    position:relative;
+    right:-95rem;
+    top:-41rem;
+    color:#bccf3d;
+ font-size:30px;
+}
+/*wraparound_text*/
+#kiss{
+    height:40rem;
+    width:70rem;
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 20px;
+    float:right;
+    transform:translateY(-50rem);
+}
+#slider_sec{
+    margin:2rem;
+    height:100rem;
+    width:auto;
+    background-color:#bccf3d;
+}
+.centered_title{
+    margin:0 auto;
+    height: 10rem;
+    width:40rem;
+    text-align: center;
+    top:-20rem;
+    display:block;
+}
+/*slider_only*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+    /*display:inline;*/
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
 }
 /*catering*/
 /*flunch*/
