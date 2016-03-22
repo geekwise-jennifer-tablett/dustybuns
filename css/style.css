@@ -280,5 +280,16 @@ hr{
     background-position:center;
     background-size:cover;
 }
-
-
+.logo_link{
+    font-family:'pacifico';
+    font-size:35px;
+    color:#ffffff;
+}
+#yellow_font{
+    font-size: 16px;
+    color:#f5bd2b;
+}
+q{
+    font-size:30px;
+    color:#ffffff;
+}
