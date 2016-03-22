@@ -344,6 +344,16 @@ q{
      background-color:#ffffff;
      transition-duration: 1s;
 }
+/*clickable_dropdown_subnav*/
+input[type=checkbox]{
+    display: none;
+}
+.second_drop{
+    display: none;
+}
+input[type=checkbox]:checked ~ .second_drop {
+    display: block
+}
 /*catering*/
 /*flunch*/
 /*sflunch*/
