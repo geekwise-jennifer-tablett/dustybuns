@@ -219,9 +219,12 @@ hr{
 }
 /*color_for_p*/
 .flex_white{
+    position:relative;
+    text-align: center;
     text-transform: uppercase;
     color:#ffffff;
     font-size:12px;
+    top:20rem;
 }
 /*box2_right_top-flexitem_short*/
 .flex_item_short{
@@ -294,10 +297,9 @@ q{
     font-size:30px;
     color:#ffffff;
 }
-
-/*sfbistro*/
-/*fbistro*/
-/*fbus*/
+/*sanfranbistro*/
+/*fresnobistro*/
+/*fresnobus*/
 /*about*/
 .nomove_nav{
     height:10rem;
@@ -451,12 +453,14 @@ div#slider figure {
     width:60rem;
     font-size:50px;
     color:#ffc300;
-}h4_whitefont{
+}
+#h4_whitefont{
     margin:0 auto;
     position: relative;
     height:10rem;
-    width:60rem;
+    width:70rem;
     color:#ffffff;
+    top:9rem;
 }
 #wedding{
     margin:2rem;
@@ -466,8 +470,58 @@ div#slider figure {
     height:20rem;
     width:55rem;
 }
+#form_right{
+    height:50rem;
+    width:35rem;
+    display:block;
+    float:right;
+    position: relative;
+    top:-65rem;
+}
+/*text_field_box*/
+#full[type=text] {
+   margin:0 auto;
+    height:5rem;
+    width: 30rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: .5px solid #6c8662;
+    border-radius:.5rem;
+    background-color:transparent;
+    color:#6c8662;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.short[type=text] {
+    margin:1rem;
+    height:5rem;
+    width: 13rem;
+    box-sizing: border-box;
+    border: .5px solid #6c8662;
+    border-radius:.5rem;
+    background-color:transparent;
+    color:#6c8662;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    float:left;
+}
+input[type=text]:focus {
+    border: 3px solid #ffffff;
+}
+/*dropdown_fieldbox_calander*/
+h5{
+    margin:0;
+    height:20px;
+    width:15rem;
+    color:#ffffff;
+    font-size:20px;
+    float:left;
+}
 /*fresnolunch*/
-/*sflunch*/
+/*sanfranlunch*/
 /*contact*/
 .gold_font{
     margin:10rem;
