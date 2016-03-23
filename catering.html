@@ -70,66 +70,134 @@
  <main id="catering_main">
  <!--background_img-->
  <!--yellow_title-->
- <h1 class="logo_link" id="yellowfont">
+  <h1 class="logo_link" id="yellowfont">
      Catering/Special Events
- </h1>
- <h4 id="h4_whitefont">
+  </h1>
+  <h4 id="h4_whitefont">
      FILL OUT THE FORM TO INQUIRE ABOUT SPECIAL EVENT CATERING&#33;
- </h4>
+  </h4>
   <!--left_div-->
   <!--wedding_img-->
- <div>
+  <div>
    <img src="http://i.imgur.com/4hRGlkU.jpg" id="wedding">
-  <p id="wedding_p">
+   <p id="wedding_p">
     We cater weddings, office lunches, private companies, local wineries, and even fine dining at local farms. We cater our full seasonal menu from the Bistro Bus to groups of 80&#45;200 people. Service time is usually 2&#45;4 hours. Part of the street food culture is the outdoor feasting with friends. We also offer office Lunch Box Pick Ups and Deliveries &#40;&#36;12&#45;&#36;15 20 person minimum&#41;.  
-  </p>
-     </div>
+   </p>
+  </div>
  <!--right_div-->
-<div id="form_right">
+  <div id="form_right">
 <!-- Form Name -->
 
-<form>
-<input type="text" id="full" value="Full Name">
-</form>
-
-   <!--phone_input-->
    <form>
-<input type="text" class="short" value="Phone">
-</form>
-   <!--budget_input-->
+     <input type="text" id="full" value="Full Name">
+    </form>
+<!--phone_input-->
    <form>
-<input type="text" class="short" value="Budget">
-</form>
-   <!--text-->
+    <input type="text" class="short" value="Phone">
+   </form>
+<!--budget_input-->
+   <form>
+    <input type="text" class="short" value="Budget">
+   </form>
+<!--text-->
    <h5>
        Date&#58;
    </h5>
-         <h5>
+   <h5>
        Attendance&#58;
    </h5>
    <!--fieldbox_calander_dropdown-->
    <form>
-<input type="text" class="short" id="calander" value="mm/dd/yyyy">
-</form>
-   <!--dropdown_attendance-->
-<form>
-<input type="text" class="short" id="calander" value="Choose One">
-</form>
+    <input type="text" class="short" id="calander" value="mm/dd/yyyy">
+   </form>
+<!--dropdown_attendance-->
+   <form>
+    <input type="text" class="short" id="calander" value="Choose One">
+<!--dropdown_choices-->
+      <select name="Choose One" id="">
+       <option value="1">10 persons
+       </option>
+       <option value="2"> 
+        20 persons
+       </option>
+       <option value="3">
+        30persons
+       </option>
+       <option value="4">
+        40 persons
+       </option>
+       <option value="5">
+        50 persons
+       </option>
+       <option value="6">
+        60 persons
+       </option>
+       <option value="7">
+        70 persons
+       </option>
+       <option value="8">
+        80 persons
+       </option>
+       <option value="9">
+        90 persons
+       </option>
+       <option value="10">
+        100&#45;149
+       </option>
+       <option value="11">
+        150&#45;199
+       </option>
+       <option value="12">
+        200&#45;249
+       </option>
+       <option value="13">
+      250&#45;299  
+       </option>
+       <option value="14">
+        300&#43;
+       </option>
+      </select>
+     </form>
   <!--text-->
-  <h5>
+   <h5>
       Location&#58;
-  </h5>
-  <h5>
+   </h5>
+   <h5>
       Event&#58;
-  </h5>
-   <!--dropdown_location-->
+   </h5>
+<!--dropdown_location-->
    <form>
-<input type="text" class="short" id="calander" value="Choose One">
-</form>
-   <!--dropdown_event-->
+    <input type="text" class="short" id="calander" value="Choose One">
+<!--dropdown_choices-->
+     <select name="Choose One" id="">
+     <option value="1">Fresno
+     </option>
+     <option value="2">SF/Bay Area
+     </option>
+    </select>
+   </form>
+<!--dropdown_event-->
    <form>
-<input type="text" class="short" id="calander" value="Choose One">
-</form>
+    <input type="text" class="short" id="calander" value="Choose One">
+<!--dropdown_choices-->
+     <select name="Choose One" id="">
+      <option value="1">
+          Wedding
+      </option>
+      <option value="2">
+          Special Event
+      </option>
+      <option value="3">
+          Company Event
+      </option>
+      <option value="4">
+          Anniversary
+      </option>
+      <option value="5">
+          Other
+      </option> 
+     </select>
+    </form>
   <!--text-->
   <h5>Start of Service&#58;
   </h5>
@@ -137,42 +205,93 @@
       &#42;if &#39;other&#39;, please
   </h5>
    <!--dropdown_startservice-->
-   <form>
-<input type="text" class="short" id="calander" value="Choose One">
-</form>
-   <!--text-->
+    <form>
+     <input type="text" class="short" id="calander" value="Choose One">
+<!--dropdown_choices-->
+      <select name="Choose One" id="">
+       <option value="1">8&#58;00 AM</option>
+       <option value="">8&#58;30AM</option>
+       <option value="">9&#58;00 AM</option>
+       <option value="">9&#58;30AM</option>
+       <option value="">">10&#58;00 AM</option>
+       <option value="">10&#58;30AM</option>
+       <option value="">">11&#58;00 AM</option>
+       <option value="">11&#58;30AM</option>
+       <option value="">">12&#58;00 PM</option>
+       <option value="">12&#58;30PM</option>
+       <option value="">1&#58;00 PM</option>
+       <option value="">1&#58;30PM</option>
+       <option value="">2&#58;00 PM</option>
+       <option value="">2&#58;30PM</option>
+       <option value="">3&#58;00 PM</option>
+       <option value="">3&#58;30PM</option>
+       <option value="">4&#58;00 PM</option>
+       <option value="">4&#58;30PM</option>
+       <option value="">5&#58;00 PM</option>
+       <option value="">5&#58;30PM</option>
+       <option value="">6&#58;00 PM</option>
+       <option value="">6&#58;30PM</option>
+       <option value="">7&#58;00 PM</option>
+       <option value="">7&#58;30PM</option>
+       <option value="">8&#58;00 PM</option>
+       <option value="">8&#58;30PM</option>
+       <option value="">9&#58;00 PM</option>
+       <option value="">9&#58;30PM</option>
+       <option value="">10&#58;00 PM</option>
+       <option value="">10&#58;30PM</option>
+       <option value="">11&#58;00 PM</option>
+       <option value="">11&#58;30PM</option>
+       <option value="">12&#58;00 AM</option>
+     </select>
+    </form>
+<!--text-->
    <h5>
        specify in message
    </h5>
-   <!--servicetime_dropdown-->
+<!--servicetime_dropdown-->
    <h5>
       Service Time&#58;&#40;Usually 2&#45;4 hours&#41; 
    </h5>
    <form>
-<input type="text" id="full" value="Choose One">
-</form>
-   <!--email_fieldbox-->
-   <form>
-<input type="text" id="full" value="Email">
-</form>
-   <!--messege_fieldbox-->
-   <form>
-<input type="text" id="message" value="Message">
-   <!--booknow_button-->
+    <input type="text" id="full" value="Choose One">
+<!--dropdown_choices-->
+     <select name="Choose One" id="">
+      <option value="">1 hour</option>
+      <option value="">2 hours</option>
+      <option value="">3 hours</option>
+      <option value="">4 hours</option>
+      <option value="">5 hours</option>
+      <option value="">6&#43; hours</option>
+     </select>
+    </form>
+<!--email_fieldbox-->
+    <form>
+     <input type="text" id="full" value="Email">
+    </form>
+<!--messege_fieldbox-->
+    <form>
+     <input type="text" id="message" value="Message">
+    </form>
+<!--booknow_button-->
+   <div id="book_button">
+       <a href="#" id="booknow">
+           BOOK NOW
+       </a>
    </div>
-   </main>
+  </div>
+</main>
 <footer id="footer_home">
-        <div>
-            <a href="index.html" class="logo_link">
+  <div>
+    <a href="index.html" class="logo_link">
             Dusty Buns
-            </a>
-            <span id="yellow_font">
+    </a>
+    <span id="yellow_font">
                 2015. All rights reserved.
-            </span>
-            <q>
+    </span>
+        <q>
                 No Freezers,No Fryers, Everything Made From Scratch.
-            </q>
-        </div>
-    </footer>
-    </body>
+        </q>
+   </div>
+  </footer>
+ </body>
 </html>
