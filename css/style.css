@@ -549,6 +549,34 @@ h5{
      background-color:#000000;
 }
 /*fresnolunch*/
+.freslunc_title{
+   margin:0 auto;
+   text-align: center;
+   position: relative;
+   top:8rem;
+   font-size: 6rem;
+}
+.flunch_text{
+    margin:0 auto;
+    position:relative;
+    top:7rem;
+    height:2rem;
+    width:70rem;
+}
+#indent_text{
+    position:relative;
+    text-indent:5px; 
+}
+#red_astric{
+    color:#ff0000;
+}
+#contact_text{}
+#janedoe{
+    height:3rem;
+    width:50%;
+}
+
+
 /*sanfranlunch*/
 /*contact*/
 .gold_font{
