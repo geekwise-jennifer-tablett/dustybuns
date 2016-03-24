@@ -330,6 +330,7 @@ q{
     display:block;
     float:right;
 }
+/*green_icon_buttons_with_fafa*/
 .greenicon_button{
     display:block;
     height:20rem;
@@ -337,6 +338,35 @@ q{
     float:left;
     background-color:#bccf3d;
 }
+#green_li{
+    display:inline;
+}
+.inside_fa_text{}
+#white_line_button{
+    border: 0;
+    height:2px;
+    width:2rem;
+    color:#ffffff;
+}
+.fa{
+    color:#ffffff;
+}
+#greenicon_a:hover{
+    background-color:#ffffff;
+}
+.fa:hover{
+    color:#000000;
+}
+/*rounded_imgs*/
+.round_img_div{
+    position: relative;
+    float: left;
+}
+.green_h4{
+    color:#bccf3d;
+}
+
+
 /*fresnobistro*/
 /*fresnobus*/
 /*about*/
