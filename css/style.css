@@ -298,6 +298,45 @@ q{
     color:#ffffff;
 }
 /*sanfranbistro*/
+.menu_main{
+    height: 200rem;
+    width:100%;
+}
+.backgroundsfbistro_sec{
+    height:100rem;
+    width:auto;
+    background-image: url(http://i.imgur.com/61ki1kk.jpg);background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.left_info{
+    height:50%;
+    width:25%;
+    display:block;
+    float:left;
+}
+#green_hr{
+    border: 0;
+    height:2px;
+    width:80%;
+    background:#bccf3d;
+}
+#left_title_text{
+    font-size:5rem;
+}
+#menu_img_right{
+    height:100rem;
+    width:75%;
+    display:block;
+    float:right;
+}
+.greenicon_button{
+    display:block;
+    height:20rem;
+    width:90%;
+    float:left;
+    background-color:#bccf3d;
+}
 /*fresnobistro*/
 /*fresnobus*/
 /*about*/
@@ -609,8 +648,6 @@ h5{
     width:25%;
     float: left;
 }
-
-/*sanfranlunch*/
 /*contact*/
 .gold_font{
     margin:10rem;
