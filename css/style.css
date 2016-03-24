@@ -570,12 +570,36 @@ h5{
 #red_astric{
     color:#ff0000;
 }
-#contact_text{}
+#contact_text{
+    height:2rem;
+    width:10rem;
+    float:left;
+}
+#contact_fieldbox{
+    margin:0 auto;
+    height: 50rem;
+    width:80%;
+}
 #janedoe{
     height:3rem;
-    width:50%;
+    width:100%;
 }
+/*radio_button*/
+#radio_button{
 
+    font-size:20px;
+}
+#menu_coice{
+    margin:0 auto;
+    height:50rem;
+    width:80%;
+    
+}
+#menu_amount{
+    height:2rem;
+    width:20rem;
+    float:left;
+}
 
 /*sanfranlunch*/
 /*contact*/
