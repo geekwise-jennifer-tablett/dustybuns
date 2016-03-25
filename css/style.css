@@ -227,10 +227,6 @@ hr{
     width:50%;
     float:left;
 }
-#white_fa{
-    color:#ffffff;
-    text-align: center;
-}
 .box_font{
     margin:0 auto;
     text-align: center;
@@ -264,17 +260,19 @@ a{
 
 /*media_section*/
 .sec_media{
-   height:20rem;
+    margin:0 auto;
+    text-align: center;
+    height:20rem;
     width:100%;
-}
-.fa{
-    color:#000000;
-    background-color:pink;
 }
 #contact{
     height:20rem;
     width:calc(100%/3);
     float:left;
+}
+.fa-envelope{
+   font-size:2rem;
+    color:#000000;
 }
 #follow{
     height:20rem;
