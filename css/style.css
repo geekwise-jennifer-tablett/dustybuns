@@ -779,11 +779,12 @@ div#slider figure {
     transition: 0.5s;
     outline: none;
     float:left;
+    text-align: center;
 }
 #message[type=text] {
     margin:1rem;
     height:15rem;
-    width:30rem;
+    width:35rem;
     box-sizing: border-box;
     border: .5px solid #6c8662;
     border-radius:.5rem;
@@ -806,15 +807,17 @@ h5{
     font-size:20px;
     float:left;
 }
-#book_button{
+#button{
   height:5rem;
   width:12rem;
   border-radius:.5rem; 
   background-color:#ffc300;
-  float:left;
   text-align: center;
   line-height: 5rem;
   font-size:16px;
+  position: relative;
+  top:20rem;
+    right:35rem;
 }
  #booknow:hover{
   border-radius:.5rem;
