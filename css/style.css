@@ -168,84 +168,109 @@ hr{
     font-size:20px;
     line-height:3.5rem;
 }
-
-/*giant_flexbox_tryout*/
-.flex_sec{
+/*giant_box*/
+.large_box{
+    margin:0 auto;
     height:100rem;
+    width:80%;
+}
+#top_box{
+    height:50%;
     width:100%;
-    background-image:url(http://i.imgur.com/F6UAf5U.jpg);
-    background-position:center;
-    background-repeat: no-repeat;
 }
-.flexbox{
-    display:-webkit-flex;
-    display: flex;
-    -webkit-flex-wrap:none;
-    flex-wrap:nowrap;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-}
-/*flex_item_long*/
-.flexitem_long{
-   height:64rem;
-   width:30rem;
-   text-align: center;
-   
-}
-.left{
-    -webkit-justify-content:left;
-}
-.flex_header{
-    font-family:font-family:'roboto_thin';
-}
-/*background_flexbox*/
-.color_green{
+/*box_1_long*/
+.long{
+    height:100%;
+    width:50%;
+    display: block;
     background-color:#bccf3d;
+    float:left;
+}
+#box_1{
+    height:100%;
+    width:50%;
+    display:block;
+    float: left;
+}
+/*box_2_short*/
+.short{
+    height:25%;
+    width:50%;
+    background-color:#ffc300;
+    float: left;
+}
+#box_2{
+    height:100%;
+    width:50%;
+    float:left;
+}
+#box_3{
+    height:100%;
+    width:50%;
+    float:left;
+}
+#bottom_box{
+    height:50%;
+    width:100%;
+}
+#box_4{
+    height:100%;
+    width:50%;
+    float:left;
+}
+#box_5{
+    height:100%;
+    width:50%;
+    float:left;
+}
+#box_6{
+    height:100%;
+    width:50%;
+    float:left;
+}
+#white_fa{
+    color:#ffffff;
+    text-align: center;
+}
+.box_font{
+    margin:0 auto;
+    text-align: center;
+    height:2rem;
+    width:30rem;
+    display: block;
+    position:relative;
+    color:#ffffff;
+    background-color:red;
+}
+.white_line{
+    border: 0;
+    height:1px;
+    color:#ffffff;
 }
 a{
     color:#ffffff;
     text-decoration: none;
 }
-hr{
-    color:#ffffff;
-    height:1px;
-    width:10px;
-}
+
 .phone_number{
     color:#87a049;
 }
 .phone_number:hover{
     color:#000000;
 }
-/*color_for_p*/
-.flex_white{
-    position:relative;
-    text-align: center;
-    text-transform: uppercase;
-    color:#ffffff;
-    font-size:12px;
-    top:20rem;
-}
-/*box2_right_top-flexitem_short*/
-.flex_item_short{
-   height:32rem;
-   width:36rem;
-   text-align: center;
-}
-.right{-webkit-justify-content:right;}
-.color_orange{
-    background-color:#ffc509;
-}
-/*bold_h1_flexbox*/
-#bold_title_inflex{
-    color:#ffffff;
-    font-size:30px;
-}
+
+
+
+
 
 /*media_section*/
 .sec_media{
    height:20rem;
     width:100%;
+}
+.fa{
+    color:#000000;
+    background-color:pink;
 }
 #contact{
     height:20rem;

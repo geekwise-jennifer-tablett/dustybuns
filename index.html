@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=devise-width,initial-scale=1, maximum-scale=1, user-scale=no">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link type="text/css" rel="stylesheet" href="css/fonts.css">
-     
+     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <!--web_icon-->
         <link rel="icon" type="image/png" href="http://i.imgur.com/RjwqHma.png" href="index.html">
         
@@ -181,141 +181,154 @@
              </p>
        </section>
        
- <!--giant_flexboxes_tryout-->
-       <section class="flex_sec">
-           <!--box_one-->
-        <div class="flexbox left">
-         <div class="flexitem_long ">
-               <a href="#"> 
-               <img src="http://i.imgur.com/1nUpnFy.jpg">
-               </a>
-            </div>
-            <div class="flexitem_long color_green">
-                <header class="flex_header">
-                    <a href="#" >
-    <!--fafa_icon_forkknife-->
-                   SAN FRANSCISCO BISTRO
-    <!--white_line_under_icon-->
-                <hr>
-                   <span class="phone_number">
-                       &#40;415&#41;895&#45;BUNS
-                   </span>
-                    </a>
-                    <p class="flex_white">
-                        11 Division St.San Francisco,Ca
-                        <br>
-                        94103
-                        <br>
-                        Mon&#45;Sat&#58; 11AM&#45;9PM
-                    </p>
-                </header>
-            </div> 
-           
-           
-           <!--box2_left_top-->
-           <div class="flex_item_short color_orange">
-               <header class="flex_header">
-               <a href="#">
-    <!--fafa_icon_forkknife-->
-                
-                 FRESNO BISTRO
-                 <hr>
-                  <span class="phone_number">
-                  &#40;559&#41;486&#45;BUNS
-                   </span>
-                   </a>
-               </header>
-               <p class="flex_white">
-               608 E Weldon Ave.Fresno,CA
-               <br>
-               93704
-               <br>
-               Mon&#45;Sat&#58; 1AM&#45;7PM 
-               </p>
-    <!--box_top_right-->
-           <div class="flex_item_short right">
-              <img src="http://i.imgur.com/t4GetiG.jpg"> 
-           </div>
-        </div>
-    <!--bottom_of_topright-->
-    <div class="flex_item_short">
-        <img src="http://i.imgur.com/k0gdDNh.jpg">
-    </div>
-     <div
-        class="flex_item_short color_orange">
-         <!--fafa_icon_truck-->
-         <p class="flex_white">
-           SAN FRANCISCO BUS  
-         </p>
-         <hr>
-         <p class="flex_white">
-             Information coming soon&#33;
-         </p>
-     </div>
-        <!--second_half_giant_box-->
-        <div class="flex_item_short color_orange">
-        <!--fafa_icon_truck-->
-        <p class="flex_white">
-          FRESNO BUS  
-        </p>
-        <hr>
-        <a href="#" class="phone_number">
-            Fresno Bus Schedule
+ <!--giant_boxes-->
+    <section class="large_box">
+<!--box_one-->
+      <div id="top_box">
+       <div class="long">
+        <div class="box_1">
+         <a href="#"> 
+          <img src="http://i.imgur.com/ihYHbQ6.jpg?1">
         </a>
-        </div>
-        <div class="flex_item_short">
-            <img src="http://i.imgur.com/sisT15e.jpg">
-        </div> 
-        <!--bottom_left-->
-        <div class="flex_item_short">
-            <img src="http://i.imgur.com/h102gFB.jpg">
-        </div>
-        <div class="flex_item_short color_orange">
-    <!--fafa_icon_martinie-->
-       <p class="flex_white">
-           HAPPY HOUR
-       </p> 
-       <hr>
-       <p class="flex_white">
-           Mon&#45;Fri&#58; 3&#45;5PM &#64; th
-           </p>
-           <span class="phone_number">
-               Fresno Bistro
-           </span>
-        </div>
-        <div class="flexitem_long">
-            <img src="http://i.imgur.com/2t8uOQA.jpg">
-        </div>
-        <div class="flexitem_long color_green">
-    <!--fafa_icon_bell-->
-       <p class="flex_white">
+       </div>
+       <div class="box_1">
+        <header>
+         <a href="#" >
+    <!--fafa_icon_forkknife-->
+       <i class="fa fa-cutlery" id="white_fa"></i>
+       <h4 class="box_font"> SAN FRANSCISCO BISTRO
+       </h4>
+    <!--white_line_under_icon-->
+            <hr class="white_line">
+            <span class="phone_number">
+    &#40;415&#41;895&#45;BUNS
+          </span>
+         </a>
+         <p>
+             11 Division St.San Francisco,Ca
+        <br>
+            94103
+        <br>
+        Mon&#45;Sat&#58; 11AM&#45;9PM
+        </p>
+        </header>
+       </div> 
+      </div>   
+<!--box2_right_top-->
+     <div class="short">
+      <div id="box_2">
+     <header >
+      <a href="#">
+<!--fafa_icon_forkknife-->
+    FRESNO BISTRO
+        <hr>
+        <span class="phone_number">
+    &#40;559&#41;486&#45;BUNS
+        </span>
+       </a>
+      </header>
+      <p>
+        608 E Weldon Ave.Fresno,CA
+        <br>
+        93704
+        <br>
+        Mon&#45;Sat&#58; 1AM&#45;7PM 
+        </p>
+       </div>
+      <div id="box_2">
+       <img src="http://i.imgur.com/YH9vHal.jpg?1"> 
+      </div>
+     </div>
+<!--box_3_bottom_of_topright-->
+    <div class="short">
+     <div id="box_3">
+      <img src="http://i.imgur.com/RF8GlR0.jpg?1">
+     </div>
+    <div
+        id="box_3">
+<!--fafa_icon_truck-->
+     <p >
+           SAN FRANCISCO BUS  
+     </p>
+     <hr>
+     <p>
+     Information coming soon&#33;
+     </p>
+    </div>
+   </div>
+  </div>
+<!--second_half_giant_box-->
+  <div id="bottom_box">      
+   <div class="short">
+    <div id="box_4"> 
+<!--fafa_icon_truck-->
+     <p>
+          FRESNO BUS  
+     </p>
+     <hr>
+     <a href="#" class="phone_number">
+       Fresno Bus Schedule
+     </a>
+    </div>
+    <div id="box_4">
+     <img src="http://i.imgur.com/mJ1dnQn.jpg?1">
+    </div>
+   </div> 
+<!--bottom_left-->
+   <div class="short">
+    <div id="box_5"> 
+     <img src="http://i.imgur.com/keL8VyE.jpg?1">
+    </div>
+    <div id="box_5">
+<!--fafa_icon_martinie-->
+     <p>
+        HAPPY HOUR
+     </p> 
+      <hr>
+     <p>
+        Mon&#45;Fri&#58; 3&#45;5PM &#64; th
+     </p>
+      <span class="phone_number">
+         Fresno Bistro
+      </span>
+     </div>
+    </div>   
+    <div class="long">
+       <div id="box_6"> 
+        <img src="http://i.imgur.com/rsNRgnK.jpg?1">
+      </div>
+     </div>
+     <div id="box_6"> 
+<!--fafa_icon_bell-->
+       <p>
          Lunch Box Pick UPS  
        </p>
        <hr>
        <h1 id="bold_title_inflex">
            SANDO
-           <br>
+        <br>
            &#43;
-           <br>
+        <br>
            SIDE
        </h1>
-       <p class="flex_white">
+       <p>
            15 person minimum. &#36;12 per person. Click here for the 
            <a href="#" class="phone_number">Fresno</a>or
            <a href="#" class="phone_number">SF</a>order form.
        </p>
-        </div>
-      <!--end_of_flex_box-->
       </div>
+     </div>
     </section>
-    <!--media_section-->
+<!--end_of_box-->
+      
+<!--media_section-->
     <section class="sec_media">
         <div id="contact">
            <h2 class="orange_font">
               CONTACT 
            </h2> 
-           <!--fafa_icon_envelope-->
-           <a href="#" class="media_a">chefs&#64;dustybuns.com</a>
+ <!--fafa_icon_envelope-->
+           <a href="#" class="media_a"><i class="fa fa-envelope "></i>chefs&#64;dustybuns.com</a>
         </div>
         <div id="follow">
             <h2 class="orange_font">
@@ -324,14 +337,17 @@
             <hr>
     <!--fafa_icon_facebook-->
             <a href="#" class="media_a">
+               <i class="fa fa-facebook"></i>
                 Facebook
             </a>
     <!--fafa_icon_twitter-->
              <a href="#" class="media_a">
+                <i class="fa fa-twitter"></i>
                  Twitter
              </a>
     <!--fafa_icon_instagram-->
               <a href="#" class="media_a">
+                 <i class="fa fa-instagram"></i>
                   Instagram
               </a> 
         </div>
@@ -342,6 +358,7 @@
             <hr>
         <!--fafa_icon_person-->
         <a href="#" class="media_a">
+            <i class="fa fa-users"></i>
             Careers
         </a>
         </div>
