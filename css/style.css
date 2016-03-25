@@ -243,11 +243,13 @@ hr{
     background-color:red;
 }
 */
-
-.white_line{
-    border: 0;
-    height:1px;
-    color:#ffffff;
+/*white_line_inside_boxes*/
+#white_line{
+    border:2 #ffffff;
+    background-color:#ffffff;
+    height:2px;
+    width:60px;
+    
 }
 a{
     color:#ffffff;
@@ -403,10 +405,22 @@ a{
     background-color:white;
     
 }
+/*text_and_icons_within_boxes*/
 .san{
-    font-size:
+    margin-top:4rem;
+    font-size:2rem;
+    color:#ffffff;
 }
-
+.box_icons{
+    color:#ffffff;
+    height: 4rem;
+    width:4rem;
+    text-align:center;
+    line-height: 4rem;
+    margin:0 auto;
+    position: relative;
+    right:13rem;
+}
 
 
 /*media_section*/
@@ -449,11 +463,15 @@ a{
 
 /*fa_icons*/
 .media_fa{
-    background-color:blue;
     margin:0;
-    padding:0;
+    position:relative;
+    right:33rem;
 }
-
+#media_hr{
+    border:1 #dddddd;
+    background-color:#dddddd;
+    width:3rem;
+}
 /*footer_homepage*/
 #footer_home{
     height:30rem;
