@@ -251,6 +251,14 @@ hr{
     width:60px;
     
 }
+/*out_of_place_hr*/
+.broken{
+   border:2 #ffffff;
+    background-color:#ffffff;
+    height:2px;
+    width:60px;
+   
+}
 a{
     color:#ffffff;
     text-decoration: none;
@@ -421,11 +429,7 @@ a{
     position: relative;
     right:13rem;
 }
-/*out_of_place_hr*/
-.broken{
-    position: relative;
-   
-}
+
 
 /*media_section*/
 .sec_media{
@@ -706,7 +710,7 @@ div#slider figure {
 /*catering*/
 #catering_main{
     margin-top:2rem;
-    height: 100rem;
+    height: 110rem;
     width:100%;
     background-image: url(http://i.imgur.com/ns3Uoua.jpg);
     background-repeat: no-repeat;
@@ -738,8 +742,9 @@ div#slider figure {
     width:55rem;
 }
 #form_right{
+    padding:2rem;
     height:50rem;
-    width:35rem;
+    width:50rem;
     display:block;
     float:right;
     position: relative;
@@ -749,7 +754,7 @@ div#slider figure {
 #full[type=text] {
    margin:0 auto;
     height:5rem;
-    width: 30rem;
+    width: 50rem;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -764,7 +769,7 @@ div#slider figure {
 .short[type=text] {
     margin:1rem;
     height:5rem;
-    width: 13rem;
+    width:20rem;
     box-sizing: border-box;
     border: .5px solid #6c8662;
     border-radius:.5rem;
