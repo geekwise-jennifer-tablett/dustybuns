@@ -421,7 +421,11 @@ a{
     position: relative;
     right:13rem;
 }
-
+/*out_of_place_hr*/
+.broken{
+    position: relative;
+   
+}
 
 /*media_section*/
 .sec_media{
