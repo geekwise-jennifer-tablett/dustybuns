@@ -403,7 +403,9 @@ a{
     background-color:white;
     
 }
-
+.san{
+    font-size:
+}
 
 
 
@@ -419,10 +421,8 @@ a{
     width:calc(100%/3);
     float:left;
 }
-.fa-envelope{
-   font-size:2rem;
-    
-}
+
+
 #follow{
     height:20rem;
     width:calc(100%/3);
@@ -445,6 +445,13 @@ a{
 }
 .media_a:hover{
     color:#000000;
+}
+
+/*fa_icons*/
+.media_fa{
+    background-color:blue;
+    margin:0;
+    padding:0;
 }
 
 /*footer_homepage*/
