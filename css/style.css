@@ -182,7 +182,6 @@ hr{
 .long{
     height:100%;
     width:50%;
-    display: block;
     background-color:#bccf3d;
     float:left;
 }
@@ -194,7 +193,7 @@ hr{
 }
 /*box_2_short*/
 .short{
-    height:25%;
+    height:50%;
     width:50%;
     background-color:#ffc300;
     float: left;
