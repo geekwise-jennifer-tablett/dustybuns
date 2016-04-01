@@ -130,6 +130,9 @@ hr{
     width:30%;
 }
 .dusty_logofont{
+    margin:0 auto;
+    height:70px;
+    width:60rem;
     text-align: center;
     font-size: 60px;
     color:#ffffff;
