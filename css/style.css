@@ -130,22 +130,25 @@ hr{
     width:30%;
 }
 .dusty_logofont{
-    margin:0 auto;
+    margin-top:3rem;
     height:70px;
-    width:60rem;
+    width:30rem;
     text-align: center;
+    line-height: 70px;
     font-size: 60px;
     color:#ffffff;
     font-family:'pacifico'
 }
 .simple_font{
+    height:40px;
+    line-height: 40px;
     text-align: center;
     font-size: 40px;
+    position:relative;
+    left:-3rem;
+    top:-2rem;
     color:#ffffff;
     font-family:'roboto';
-}
-#welcome_buns{
-    
 }
 .welcome_buns{
     color:#ffc509;
