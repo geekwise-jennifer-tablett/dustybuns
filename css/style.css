@@ -175,80 +175,7 @@ hr{
     font-size:20px;
     line-height:3.5rem;
 }
-/*giant_box
-.large_box{
-    margin:0 auto;
-    height:100rem;
-    width:70%;
-}
-#top_box{
-    height:50%;
-    width:100%;
-}
-/*box_1_long*
-.long{
-    height:100%;
-    width:50%;
-    background-color:#bccf3d;
-    float:left;
-}
-#box_1{
-    height:100%;
-    width:50%;
-    float: left;
-}
-.san{
-    height: 100%;
-    width: 50%;
-    float: left;
-}
-/*box_2_short*
-.short{
-    height:50%;
-    width:50%;
-    background-color:#ffc300;
-    float: left;
-}
-#box_2{
-    height:100%;
-    width:50%;
-    float:left;
-}
-#box_3{
-    height:100%;
-    width:50%;
-    float:left;
-}
-#bottom_box{
-    height:50%;
-    width:100%;
-}
-#box_4{
-    height:100%;
-    width:50%;
-    float:left;
-}
-#box_5{
-    height:100%;
-    width:50%;
-    float:left;
-}
-#box_6{
-    height:100%;
-    width:50%;
-    float:left;
-}
-.box_font{
-    margin:0 auto;
-    text-align: center;
-    height:2rem;
-    width:30rem;
-    display: block;
-    position:relative;
-    color:#ffffff;
-    background-color:red;
-}
-*/
+
 /*white_line_inside_boxes*/
 #white_line{
     border:2 #ffffff;
@@ -289,7 +216,6 @@ a{
     text-align: center;
     
 }
-
 
 /* section of boxes home page*/
 
@@ -746,43 +672,46 @@ div#slider figure {
 }
 #wedding_p{
     margin:2rem;
-    height:20rem;
+    height:30rem;
     width:55rem;
+    color:#ffffff;
+    font-size:25px;
 }
 #form_right{
+    margin:0;
     padding:2rem;
     height:50rem;
     width:50rem;
     display:block;
-    float:right;
+    left:70rem;
     position: relative;
-    top:-65rem;
+    top:-76rem;
 }
 /*text_field_box*/
 #full[type=text] {
    margin:0 auto;
     height:5rem;
-    width: 50rem;
+    width:100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: .5px solid #6c8662;
+    border: .5px solid #ffffff;
     border-radius:.5rem;
     background-color:transparent;
-    color:#6c8662;
+    color:#ffffff;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
 }
 .short[type=text] {
-    margin:1rem;
+    margin:.5rem;
     height:5rem;
-    width:20rem;
+    width:48%;
     box-sizing: border-box;
-    border: .5px solid #6c8662;
+    border: .5px solid #ffffff;
     border-radius:.5rem;
     background-color:transparent;
-    color:#6c8662;
+    color:#ffffff;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
@@ -790,14 +719,14 @@ div#slider figure {
     text-align: center;
 }
 #message[type=text] {
-    margin:1rem;
+    margin:0 auto;
     height:15rem;
     width:35rem;
     box-sizing: border-box;
-    border: .5px solid #6c8662;
+    border: .5px solid #ffffff;
     border-radius:.5rem;
     background-color:transparent;
-    color:#6c8662;
+    color:#ffffff;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
@@ -809,12 +738,26 @@ input[type=text]:focus {
 /*dropdown_fieldbox_calander*/
 h5{
     margin:0;
+    padding:.5rem;
     height:20px;
+    line-height: 20px;
+    text-align: center;
     width:15rem;
     color:#ffffff;
     font-size:20px;
     float:left;
 }
+.date{
+    position: relative;
+    left:-5rem;
+    top:.5rem;
+}
+.attendance{
+    position:relative;
+    left:7rem;
+    top:.5rem;
+}
+
 #button{
   height:5rem;
   width:12rem;
