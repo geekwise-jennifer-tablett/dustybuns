@@ -578,6 +578,7 @@ q{
     position:fixed;
     top:0;
     background-color:#ffffff;
+    z-index:1;
 }
 .black_font{
     margin:2rem;
