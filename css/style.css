@@ -130,7 +130,7 @@ hr{
     width:30%;
 }
 .dusty_logofont{
-    margin-top:3rem;
+    margin-top:15rem;
     height:70px;
     width:30rem;
     text-align: center;
@@ -150,17 +150,25 @@ hr{
     color:#ffffff;
     font-family:'roboto';
 }
+#welcome_sec{
+    margin:2rem;
+    height:30rem;
+    width:auto;
+}
 .welcome_buns{
+    margin:0 auto;
+    height:10rem;
+    width:60rem;
     color:#ffc509;
 }
 #fork_img{
     display:block;
     margin:0 auto;
     position:relative;
-    top:-5rem;
 }
 .thin_font{
     margin:0 auto;
+    padding:1rem;
     height:10rem;
     width:100rem;
     font-family:'roboto_thin';
@@ -170,6 +178,7 @@ hr{
 }
 /*centering_theword_it*/
 #centered_word{
+    margin:0 auto;
     font-family:'roboto_thin';
     text-align: center;
     font-size:20px;
@@ -222,7 +231,7 @@ a{
 
 #boxes{
     position: relative;
-    top: -100px;
+    top: -10px;
     width: 120rem;
     display: inline-block;
     height:1000px;
@@ -496,7 +505,16 @@ q{
     background-color:#bccf3d;
 }
 #green_li{
+    margin:0 auto;
+    height:4rem;
+    width:calc(100%/5);
+    line-height: 4rem;
+    text-align: center;
+    font-size:20px; 
     display:inline;
+    float: left;
+    position:relative;
+    top:7rem;
 }
 .inside_fa_text{}
 #white_line_button{
@@ -506,12 +524,16 @@ q{
     color:#ffffff;
 }
 
-#greenicon_a:hover{
+#green_li:hover{
     background-color:#ffffff;
+    color:#000000;
 }
-.fa:hover{
-    color:;
+.green_menu{
+    height:2rem;
+    width:2rem;
+    color:#ffffff;
 }
+
 /*rounded_imgs*/
 .round_img_div{
     position: relative;
